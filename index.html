@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PNDFW659');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Nur'Ihsan Berahim | Fullstack Developer Portfolio</title>
@@ -252,6 +262,10 @@
 </head>
 
 <body class="bg-background-dark text-text-light">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNDFW659" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Header & Navigation -->
     <header class="sticky top-0 z-50 bg-background-dark/95 backdrop-blur-sm shadow-lg">
@@ -363,12 +377,11 @@
                 <div
                     class="bg-card-bg rounded-xl overflow-hidden shadow-xl border border-border-strong hover:border-accent-neutral/70 transition duration-500 transform hover:-translate-y-1 hover:shadow-card-hover">
                     <div class="h-48 bg-gray-700 flex items-center justify-center p-4 overflow-hidden">
-                        <!-- POS Project Screenshot --><img
-                            src="https://github.com/user-attachments/assets/09576e21-5548-49f8-90bc-cce249063b0d"
+                        <!-- POS Project Screenshot --><img src="pos_poc_thumbnail.png"
                             alt="Point of Sale PoC Screenshot" class="w-full h-full object-cover rounded-lg">
                     </div>
                     <div class="p-6 space-y-4">
-                        <h3 class="text-xl font-semibold text-text-light">Point of Sale - PoC Web</h3>
+                        <h3 class="text-xl font-semibold text-text-light">Point Of Sale</h3>
                         <p class="text-text-muted text-sm min-h-[40px]">
                             A comprehensive Point of Sale system with multi-store support, role-based access control,
                             inventory management, and real-time reporting.
@@ -384,12 +397,50 @@
                         <!-- Action Buttons -->
                         <div class="flex space-x-3 pt-4">
                             <!-- Primary Button (Neutral Accent) --><button
-                                onclick="openProjectModal('Point of Sale - PoC Web', 'A proof-of-concept web application for a Point of Sale system with authentication, multi-store support, inventory management, sales reporting, and comprehensive testing. Built with service-repository pattern architecture.', 'https://github.com/ihsanberahim/pos-poc-web')"
+                                onclick="openProjectModal('Point Of Sale', 'A proof-of-concept web application for a Point of Sale system with authentication, multi-store support, inventory management, sales reporting, and comprehensive testing. Built with service-repository pattern architecture.', 'https://github.com/ihsanberahim/pos-poc-web')"
                                 class="flex-1 text-center bg-button-bg text-accent-neutral font-medium py-2 rounded-lg hover:bg-gray-700 transition duration-300 text-sm">
                                 DETAILS
                             </button>
                             <!-- Outline Button (Neutral Accent) --><a
                                 href="https://github.com/ihsanberahim/pos-poc-web" target="_blank"
+                                class="flex-1 text-center border border-border-strong text-text-light font-medium py-2 rounded-lg hover:bg-card-bg hover:border-accent-neutral hover:text-accent-neutral transition duration-300 text-sm">
+                                VIEW CODE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: BizCard AI Scanner -->
+                <div
+                    class="bg-card-bg rounded-xl overflow-hidden shadow-xl border border-border-strong hover:border-accent-neutral/70 transition duration-500 transform hover:-translate-y-1 hover:shadow-card-hover">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center p-4 overflow-hidden">
+                        <!-- BizCard AI Screenshot --><img src="bizcard_ai_thumbnail.png"
+                            alt="BizCard AI Scanner Screenshot" class="w-full h-full object-cover rounded-lg">
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-semibold text-text-light">Snap For vCard</h3>
+                        <p class="text-text-muted text-sm min-h-[40px]">
+                            A smart business card digitizer leveraging Google's Gemini 2.5 Flash for intelligent OCR and
+                            entity extraction. Features automatic image detection, cropping, rotation, and generates
+                            vCards with QR codes.
+                        </p>
+                        <!-- Tech Stack Badges - Desaturated -->
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="badge bg-gray-700/50 text-gray-300">React</span>
+                            <span class="badge bg-gray-700/50 text-gray-300">TypeScript</span>
+                            <span class="badge bg-gray-700/50 text-gray-300">Tailwind CSS</span>
+                            <span class="badge bg-gray-700/50 text-gray-300">Google Gemini API</span>
+                            <span class="badge bg-gray-700/50 text-gray-300">Canvas API</span>
+                        </div>
+                        <!-- Action Buttons -->
+                        <div class="flex space-x-3 pt-4">
+                            <!-- Primary Button (Neutral Accent) --><button
+                                onclick="openProjectModal('Snap For vCard', 'A responsive web application that transforms smartphone cameras into powerful AI scanners. Uses Gemini 2.5 Flash to parse unstructured text into structured JSON (Name, Role, Company, Phone, Email, Address) with smart image processing, contact management, and instant sharing via QR codes and downloadable vCard files.', 'https://github.com/ihsanberahim/Scan-For-vCard')"
+                                class="flex-1 text-center bg-button-bg text-accent-neutral font-medium py-2 rounded-lg hover:bg-gray-700 transition duration-300 text-sm">
+                                DETAILS
+                            </button>
+                            <!-- Outline Button (Neutral Accent) --><a
+                                href="https://github.com/ihsanberahim/Scan-For-vCard" target="_blank"
                                 class="flex-1 text-center border border-border-strong text-text-light font-medium py-2 rounded-lg hover:bg-card-bg hover:border-accent-neutral hover:text-accent-neutral transition duration-300 text-sm">
                                 VIEW CODE
                             </a>
@@ -583,9 +634,10 @@
                     class="py-2 px-4 rounded-lg text-text-muted hover:bg-gray-700 transition text-sm font-medium">
                     Close
                 </button>
-                <!-- Primary Button (Neutral Accent) --><a id="modal-link" href="#" target="_blank"
+                <!-- Primary Button (Neutral Accent) --><a id="modal-link"
+                    href="https://calendar.app.google/i8YzPeJHUfRNcza69" target="_blank"
                     class="py-2 px-4 rounded-lg bg-button-bg text-accent-neutral font-medium hover:bg-gray-700 transition text-sm">
-                    Go to Live Demo
+                    Get In Touch
                 </a>
             </div>
         </div>
@@ -624,7 +676,8 @@
         function openProjectModal(title, description, link) {
             modalTitle.textContent = title;
             modalDescription.textContent = description + " (This simulates the Shadcn Dialog component behavior and styling using pure JS and Tailwind).";
-            modalLink.href = link;
+            // Always use the Google Calendar link for "Get In Touch"
+            modalLink.href = "https://calendar.app.google/i8YzPeJHUfRNcza69";
 
             // Display the modal container
             projectModal.classList.remove('hidden');
